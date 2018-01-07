@@ -1,0 +1,16 @@
+Outstanding
+
+-	Currently only gets KVA (S) and PF (PF). Other values can either be collected or calculated, be aware of memory use!
+-	32-bit python is limited to 4 gigs of RAM, this is approximately 1 year of every TOU customer half hour reading
+-	Only searches in X:\NRD\xxxx\yyyyyy\EIEP3_ICPHH for .txt files (where xxxx is year and yyyy is yearmo) - the start dates and end dates are inputted by user. If location changes in the future this will break!
+-	Takes first day of start and end date specified. So if start date is 05/03/2017 will take all data from 01/03/2017.
+-	If there is more than one meter then data may be overwritten
+
+Resolved
+
+Questions
+
+-	Always meter after ICP?
+-	X is export from network to customer, I is import from customer to network (generation)
+-	Different formats of .txt, will these change in the future?
+-	Just EIEP3_ICPHH used?
